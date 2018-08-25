@@ -4,3 +4,4 @@ environment:
 dependencies:
    test:
    crypto: ^2.0.6
+   http: any
