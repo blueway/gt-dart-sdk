@@ -18,12 +18,12 @@ int randint(int min, int max){
 }
 
 class Geetest{
-    final Map<String,String> config;
+    //final Map<String,String> config;
     var PROTOCOL =  'http://';
     var API_SERVER =  'api.geetest.com';
     var VALIDATE_PATH =  '/validate.php';
     var REGISTER_PATH =  '/register.php';
-    const NEW_CAPTCHA =  true;
+    static const NEW_CAPTCHA =  true;
     String geetest_id;
     String geetest_key;
 
