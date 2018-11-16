@@ -23,7 +23,7 @@ class Geetest{
     var API_SERVER =  'api.geetest.com';
     var VALIDATE_PATH =  '/validate.php';
     var REGISTER_PATH =  '/register.php';
-    static const NEW_CAPTCHA =  true;
+    final NEW_CAPTCHA =  true;
     String geetest_id;
     String geetest_key;
 
